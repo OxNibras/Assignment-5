@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        .lexend{
+              font-family: "Lexend", sans-serif;
+        }
+    </style>
+</head>
+<body class="lexend">
+    <header>
+        <nav class="flex justify-between md:mx-33 translate-y-6 pb-15 ">
+            <button id="home-btn" class="border-none shadow btn btn-md rounded-lg px-7 p bg-[#B4F461] font-bold text-[16px]">Home</button>
+           
+        </nav>
+    </header>
+    <main class="max-w-[1333px] mx-auto space-y-1">
+        <h1 class="text-4xl font-bold mb-10 ml-7">Important FAQ</h1>
+        <div class="collapse collapse-arrow bg-base-100 border border-base-300 ">
+  <input type="radio" name="my-accordion-2" checked="checked" />
+  <div class="collapse-title font-bold">What is DOM?</div>
+  <div class="collapse-content font-medium text-gray-600">DOM means Document Object Model. It helps us to connect our HTML to our JS and make our website functional. We can do many types of fun things using DOM in our HTML</div>
+</div>
+<div class="collapse collapse-arrow bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-2" />
+  <div class="collapse-title font-bold">How do you select an element from DOM?</div>
+  <div class="collapse-content font-medium text-gray-600">We can select elements from DOM in many ways some of these are:
+    <ul class="space-y-2 mt-2">
+        <li>getElementById</li>
+        <li>getElementsByTagName</li>
+        <li>getElementsByClassName</li>
+        <li>querySelector</li>
+    </ul>
+  </div>
+</div>
+<div class="collapse collapse-arrow bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-2" />
+  <div class="collapse-title font-bold">What is event delegation in the context of the DOM, and why is it useful?</div>
+  <div class="collapse-content font-medium text-gray-600">Instead of adding a click listener to every child, you put one on the parent and let events bubble up. It's faster, uses less memory, and works for elements added later.</div>
+</div>
+<div class="collapse collapse-arrow bg-base-100 border border-base-300">
+  <input type="radio" name="my-accordion-2" />
+  <div class="collapse-title font-bold ">How do you manipulate an element's attributes and styles using DOM?</div>
+  <div class="collapse-content font-medium text-gray-600">For attributes, you use getAttribute, setAttribute, and removeAttribute. For styles, you use the style property like element.style.color = 'red', or you can add/remove classes with classList.add, classList.remove</div>
+</div>
+    </main>
+
+
+    <script src="blog.js"></script>
+</body>
+</html>

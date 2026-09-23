@@ -18,14 +18,14 @@
 <body class="lexend">
     <header class=" sticky top-0 z-50 backdrop-blur-xl shadow-md pb-7">
         <nav class="flex justify-between md:mx-33 translate-y-6 pb-22 ">
-            <button class="border-none shadow btn btn-md rounded-lg px-7 p bg-[#B4F461] font-bold text-[16px]">Blog</button>
+            <button id="blog-btn" class="border-none shadow btn btn-md rounded-lg px-7 p bg-[#B4F461] font-bold text-[16px]">Blog</button>
             <div class="flex items-center gap-4">
-                <img src="assets/logo.png" alt="">
-                <p class="text-2xl font-semibold">Donate Bangladesh</p>
+                <img class="md:text-xl text-sm" src="assets/logo.png" alt="">
+                <p class="md:text-2xl font-semibold">Donate Bangladesh</p>
             </div>
            <div class="flex items-center gap-2">
               <img src="assets/coin.png" alt="">
-              <p id="" class="text-xl font-medium text-gray-600 whitespace-nowrap"> <span id="balance">5000</span> BDT</p>
+              <p id="" class="md:text-xl font-medium text-gray-600 whitespace-nowrap"> <span id="balance">8400</span> BDT</p>
            </div>
         </nav>
         <div class="flex justify-center gap-5">
@@ -81,11 +81,11 @@
                </div>
           </div>
       </section>
-      <section id="history" class="hidden space-y-6">
+      <section id="history" class="hidden space-y-6 mb-10">
                
       </section>
-      <div id="popup" class="fixed inset-0 bg-black/50 z-55  justify-center items-center hidden duration-75 ">
-         <div class="bg-white shadow-3xl py-8 space-y-4 px-24 text-center rounded-xl">
+      <div id="popup" class=" fixed inset-0 bg-black/50 z-55  justify-center items-center hidden  ">
+         <div class=" bg-white shadow-3xl py-8 space-y-4 px-11 md:px-24 text-center rounded-xl">
            <h1 class="text-2xl font-bold">Congrates!</h1>
            <img class="mx-auto" src="assets/coin.png" alt="">
            <p class="text-gray-500">You Have Donated for Humankind</p>

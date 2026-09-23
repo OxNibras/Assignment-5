@@ -134,8 +134,7 @@ document.getElementById('protest-btn').addEventListener('click', function(){
          'space-y-5'
       )
       div.innerHTML = `
-        <h1 class="text-xl font-bold " > ${protestAmount} Taka is Donated for Aid for Injured in the Quota Movement
- ,Bangladesh</h1>
+        <h1 class="text-xl font-bold " > ${protestAmount} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</h1>
         <p class="text-gray-500 "> ${new Date().toString()}</p>
       `
       const history = document.getElementById('history');
@@ -149,4 +148,9 @@ document.getElementById('protest-btn').addEventListener('click', function(){
       })
     }
 })
+
+document.getElementById('blog-btn').addEventListener('click', function(){
+    window.location.href = 'blog.html'
+})
+
 
